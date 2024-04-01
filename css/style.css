@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img img {
+    height: 200px;
+    padding: 50px 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.img input {
+    display: none;
+}
+
+#html:checked ~ .css ,
+#html:checked ~ .js {
+    /*display: none;*/
+    opacity: 0.2;
+}
+
+#css:checked ~ .html,
+#css:checked ~ .js {
+    /*display: none;*/
+    opacity: 0.2;
+}
+
+#js:checked ~ .css,
+#js:checked ~ .html {
+    /*display: none;*/
+    opacity: 0.2;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 70px;
+}
+.tabs {
+    padding: 5px 5px;
+}
